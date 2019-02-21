@@ -5,6 +5,8 @@
     text-align: center;
     text-decoration: underline;
     background: gray;
+    position: relative;
+    z-index: 1;
 }
 
 a{
@@ -131,6 +133,7 @@ nav{
     position: fixed;
     top: 0%;
     left: 0%;
+    z-index: 4;
 
 }
 nav li {
