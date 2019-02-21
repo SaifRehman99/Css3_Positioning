@@ -1,7 +1,32 @@
-p,a{
-    width:auto;
-    padding: 20px;
-    border: 5px solid red;
+.container{
     margin: 20px;
+}
+.head{
+    text-align: center;
+    text-decoration: underline;
+    background: gray;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.box-Model p,a{
+    width:auto;
+    border: 5px solid red;
     display: block;
+    padding: 20px;
+    margin: 15px;
+}
+h2{
+    text-align: center;
+    font-size: 30px;
+}
+.document-flow p{
+    background:aqua;    
+    line-height: 2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: auto;
+    padding: 20px;
 }
