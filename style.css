@@ -30,3 +30,16 @@ h2{
     width: auto;
     padding: 15px;
 }
+
+.float{
+    width:auto;
+    padding: 10px;
+    margin: 10px;
+}
+.content{
+    text-align: center;
+    width: 300px;
+    float: left;
+    padding: 50px;
+    margin: 5px;
+}
