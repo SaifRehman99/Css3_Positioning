@@ -43,3 +43,18 @@ h2{
     padding: 50px;
     margin: 5px;
 }
+/* We can use a after pesudo class or a seperate div */
+.float::after{
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.seperate{
+    clear: both;
+}
+
+.Clr-float{
+    background: gray;
+    padding: 30px;
+}
