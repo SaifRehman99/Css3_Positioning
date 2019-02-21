@@ -1,0 +1,123 @@
+.container{
+    margin: 20px;
+}
+.head{
+    text-align: center;
+    text-decoration: underline;
+    background: gray;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.box-Model p,a{
+    width:auto;
+    border: 5px solid red;
+    display: block;
+    padding: 20px;
+    margin: 15px;
+}
+h2{
+    text-align: center;
+    font-size: 30px;
+}
+.document-flow p{
+    background:aqua;    
+    line-height: 2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: auto;
+    padding: 15px;
+}
+
+.float{
+    width:auto;
+    padding: 10px;
+    margin: 10px;
+    position: relative;
+    
+}
+.content{
+    text-align: center;
+    width: 300px;
+    float: left;
+    padding: 50px;
+    margin: 5px;
+    position: relative;
+}
+
+/* We can use a after pesudo class or a seperate div */
+.float::after{
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.seperate{
+    clear: both;
+}
+
+.Clr-float{
+    background: gray;
+    padding: 310px;
+}
+
+section , aside {
+    float: left;
+    width: 500px;
+    padding: 10px;
+    margin: 10px;
+    background: lightgreen  
+}
+.without-floats p {
+    column-count: 3;
+    -webkit-column-count: 3;
+    column-gap: 40px;
+    column-rule: 2px solid red;
+
+}
+
+.float1{
+    width:auto;
+    padding: 10px;
+    margin: 10px;
+    position: relative;
+
+    
+}
+
+.content1{
+    text-align: center;
+    width: 300px;
+    float: left;
+    padding: 50px;
+    margin: 5px;
+    position: relative;
+}
+
+.content1:nth-child(2){
+    top: 5px;
+}
+
+.content1:nth-child(3){
+    top: 15px;
+}
+
+.content1:nth-child(4){
+    top: 25px;
+
+}
+.abs{
+    position: relative;
+    width: auto;
+    margin: 20px;
+    padding: 20px;
+
+}
+.abs h3{
+    position: absolute;
+    color: aliceblue;
+    top: 300px;
+    left: 500px;
+}
