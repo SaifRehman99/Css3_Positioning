@@ -58,3 +58,11 @@ h2{
     background: gray;
     padding: 30px;
 }
+
+section , aside {
+    float: left;
+    width: 600px;
+    padding: 10px;
+    margin: 10px;
+    background: lightgreen  
+}
