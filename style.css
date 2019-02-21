@@ -59,10 +59,18 @@ h2{
     padding: 30px;
 }
 
+<<<<<<< HEAD
 section , aside {
     float: left;
     width: 600px;
     padding: 10px;
     margin: 10px;
     background: lightgreen  
+=======
+.without-floats p {
+    column-count: 3;
+    -webkit-column-count: 3;
+    column-gap: 40px;
+    column-rule: 2px solid red;
+>>>>>>> branch3
 }
