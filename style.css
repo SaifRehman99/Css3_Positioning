@@ -35,6 +35,8 @@ h2{
     width:auto;
     padding: 10px;
     margin: 10px;
+    position: relative;
+    
 }
 .content{
     text-align: center;
@@ -42,7 +44,9 @@ h2{
     float: left;
     padding: 50px;
     margin: 5px;
+    position: relative;
 }
+
 /* We can use a after pesudo class or a seperate div */
 .float::after{
     display: block;
@@ -72,5 +76,37 @@ section , aside {
     -webkit-column-count: 3;
     column-gap: 40px;
     column-rule: 2px solid red;
+<<<<<<< HEAD
 >>>>>>> branch3
+=======
+}
+
+.float1{
+    width:auto;
+    padding: 10px;
+    margin: 10px;
+    position: relative;
+    
+}
+
+.content1{
+    text-align: center;
+    width: 300px;
+    float: left;
+    padding: 50px;
+    margin: 5px;
+    position: relative;
+}
+
+.content1:nth-child(2){
+    top: 5px;
+}
+
+.content1:nth-child(3){
+    top: 15px;
+}
+
+.content1:nth-child(4){
+    top: 25px;
+>>>>>>> branch4
 }
