@@ -63,22 +63,20 @@ h2{
     padding: 30px;
 }
 
-<<<<<<< HEAD
 section , aside {
     float: left;
     width: 600px;
     padding: 10px;
     margin: 10px;
-    background: lightgreen  
-=======
+    background: lightgreen  ;
+}
+
 .without-floats p {
     column-count: 3;
     -webkit-column-count: 3;
     column-gap: 40px;
     column-rule: 2px solid red;
-<<<<<<< HEAD
->>>>>>> branch3
-=======
+
 }
 
 .float1{
@@ -108,9 +106,7 @@ section , aside {
 
 .content1:nth-child(4){
     top: 25px;
-<<<<<<< HEAD
->>>>>>> branch4
-=======
+
 }
 .abs{
     position: relative;
@@ -124,9 +120,7 @@ section , aside {
     color: aliceblue;
     top: 300px;
     left: 500px;
-<<<<<<< HEAD
->>>>>>> branch5
-=======
+
 }
 
 nav{
@@ -145,5 +139,5 @@ nav li {
     list-style: none;
     padding-bottom: 10px;
     margin: 0 10px;
->>>>>>> branch6
+
 }
