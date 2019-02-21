@@ -124,5 +124,26 @@ section , aside {
     color: aliceblue;
     top: 300px;
     left: 500px;
+<<<<<<< HEAD
 >>>>>>> branch5
+=======
+}
+
+nav{
+    background: grey;
+    width: 100%;
+    /* margin: 20px;
+    padding: 20px; */
+    position: fixed;
+    top: 0%;
+    left: 0%;
+
+}
+nav li {
+    float: left;
+    padding-right: 50px;
+    list-style: none;
+    padding-bottom: 10px;
+    margin: 0 10px;
+>>>>>>> branch6
 }
