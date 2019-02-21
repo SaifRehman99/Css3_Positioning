@@ -58,3 +58,10 @@ h2{
     background: gray;
     padding: 30px;
 }
+
+.without-floats p {
+    column-count: 3;
+    -webkit-column-count: 3;
+    column-gap: 40px;
+    column-rule: 2px solid red;
+}
